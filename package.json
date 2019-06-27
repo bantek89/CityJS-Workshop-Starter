@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "yarn run build:functions && vue-cli-service build",
+    "build": "npm run build:functions && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:functions": "netlify-lambda build src_functions",
     "serve:functions": "netlify-lambda serve src_functions"
@@ -36,7 +36,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/essential",yarn
       "eslint:recommended"
     ],
     "rules": {},
