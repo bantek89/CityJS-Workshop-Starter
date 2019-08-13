@@ -1,18 +1,7 @@
 <template>
-    <div :class="$style.wrap">
-        <div
-            :class="{
-                [$style.left]: true,
-                [$style.inactive]: mode === '2Player'
-            }">
-            <FontAwesomeIcon :icon="playerIcon" :class="$style.faTimes" /> 2 player
-        </div>
-        <div
-            :class="{
-                [$style.right]: true,
-            }">
-            <FontAwesomeIcon :icon="computerIcon" :class="$style.faTimes" /> vs AI
-        </div>
+    <div :class="$style.wrap" @click=handleClick>
+       
+       
     </div>
 </template>
 
@@ -39,7 +28,10 @@ export default {
         }
     },
     methods: {
-       
+        handleClick: function() {
+            this.$emit('gameMode')
+        }
+
     }
 };
 </script>

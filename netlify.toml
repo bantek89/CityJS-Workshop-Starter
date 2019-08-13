@@ -15,4 +15,4 @@ ID = "Your_Site_ID"
   publish = "dist"
   functions = "functions"
   # Default build command.
-  command = "yarn build"
+  command = "npm run build"
