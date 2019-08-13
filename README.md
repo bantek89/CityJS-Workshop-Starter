@@ -1,3 +1,5 @@
+Built using brain.js
+
 # CityJS Workshop - Tic Tac Toe app
 
 This is what you'll be building:
