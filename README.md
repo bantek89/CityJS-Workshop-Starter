@@ -1,3 +1,5 @@
+Started this at this years CityJS conference. Built using Node, brain.js and Vue.js
+
 # CityJS Workshop - Tic Tac Toe app
 
 This is what you'll be building:
