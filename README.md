@@ -1,4 +1,4 @@
-Built using brain.js
+Stared at CityJS conference. Built using Node, brain.js and Vue
 
 # CityJS Workshop - Tic Tac Toe app
 
