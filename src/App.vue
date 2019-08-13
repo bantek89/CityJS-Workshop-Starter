@@ -2,7 +2,7 @@
     <div id="app">
         <div>
             <a
-                href="https://github.com/lnug/CityJS-Workshop"
+                href="https://github.com/bantek89/Tic-tac-toe"
                 class="github-corner"
                 aria-label="View source on GitHub"
                 target="_blank"
